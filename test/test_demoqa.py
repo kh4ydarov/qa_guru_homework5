@@ -1,7 +1,5 @@
 import os
-import time
-
-from selene import browser, be, have
+from selene import browser, have
 
 def test_demoqa_form():
     browser.open('/automation-practice-form')
